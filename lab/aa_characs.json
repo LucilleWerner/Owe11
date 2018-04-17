@@ -1,0 +1,23 @@
+{
+  "F": "nonpolar",
+  "L": "nonpolar",
+  "I": "nonpolar",
+  "V": "nonpolar",
+  "W": "nonpolar",
+  "P": "nonpolar",
+  "M": "nonpolar",
+  "A": "nonpolar",
+  "G": "polar",
+  "Y": "polar",
+  "C": "polar",
+  "Q": "polar",
+  "T": "polar",
+  "N": "polar",
+  "S": "polar",
+  "R": "basic",
+  "K": "basic",
+  "H": "basic",
+  "D": "acidic",
+  "E": "acidic"
+}
+
