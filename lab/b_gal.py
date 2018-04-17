@@ -21,17 +21,15 @@ codons = [seq[x:x+3] for x in range(0,len(seq),3)]
 # read codon table as dict
 codon_table = json.load(codon_json)
 
-# amino acid of interest (G)
-print(codon_table[codons[794]])
+# regions of interest -1 and + 1
+region_dna = ''
+region_aa = ''
+for i in range(793,805):
+    region_dna += codons[i]+' '
+    region_aa += codon_table[codons[i]] +' '
 
-region = ''
-
-region += codons[79]+' '
-region += codons[794]+' '
-region += codons[795]+' '
-region += codons[796]
-
-print(region)
+print(region_dna)
+print(region_aa)
 
 """
 Gly795
